@@ -9,6 +9,7 @@ import { TopPanelComponent } from './components/top-panel/top-panel.component';
 import { TagsComponent } from './components/tags/tags.component';
 import { SidePanelComponent } from './components/side-panel/side-panel.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

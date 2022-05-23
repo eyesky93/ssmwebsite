@@ -1,12 +1,12 @@
-<mat-toolbar><div class="tab">
+<mat-toolbar class="tab">
   <div class="menu">
-    <button class="home" id="Home">Home</button>
+    <button mat-button class="home" id="Home">Home</button>
     <!-- <div class="searchbox-first" #searchBox (input)="search(searchBox.value)"
     (click)="expendSearch($event)" (clickElsewhere)="closeSearch()" id="SearchBar"> -->
     <div class="searchbox-first">
-    <div style="display:flex;justify-content: space-between;">
-    <div class="place-holder" style="display:inline-block">Search</div>
-    <div class="seaRch-icon" style="display:inline-block">?</div>
+      <div style="display:flex;justify-content: space-between;">
+        <div class="place-holder" style="display:inline-block">Search</div>
+        <div class="search-icon" style="display:inline-block">?</div>
       </div>
     </div>
     <!-- <button style="display: none;">Music</button>
@@ -15,12 +15,12 @@
   </div>
   <div class="languages">
     <div class="tab-section">
-      <button style="width:fit-content; padding-right: 0.5vw;">
+      <button mat-flat-button color="primary" style="width:fit-content; padding-right: 0.5vw;">
         <a href="/about" style="text-decoration: none;color:white;">About</a>
       </button>
-      <button class="active">En</button>
-      <button class="Non-active">/</button>
-      <button >עב</button>
+      <button mat-mini-fab color="primary" class="language">En</button>
+      <button>/</button>
+      <button mat-mini-fab color="">עב</button>
     </div>
   </div>
-</div></mat-toolbar>
+</mat-toolbar>
